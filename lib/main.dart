@@ -74,6 +74,9 @@ class _QuizPageState extends State<QuizPage> {
                 ),
               ),
               onPressed: () {
+                setState(() {
+                  questionNumber++;
+                });
                 //The user picked true.
               },
             ),
